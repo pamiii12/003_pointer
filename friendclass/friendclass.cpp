@@ -35,11 +35,14 @@ void siswa::setld(int pId) {
 }
 
 int main() {
-	orang joko;
-	joko.setNama("Joko Kumat");
-	siswa joko_siswa;
-	joko_siswa.setld(1);
-	joko_siswa.displayAll(joko);
+	orang o;
+	o.setNama("Joko Kumat");
+	siswa s;
+	s.setld(1);
+	s.displayAll(o);
+	cout << endl;
+	system("pause");
+	
 
 	return 0;
 }
