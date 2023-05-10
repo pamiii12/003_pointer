@@ -16,7 +16,7 @@ public:
 };
 
 void manusia::showNilaiPelajar(pelajar& x) {
-	std::cout << "Nilai : " << x.nilai;
+	std::cout << "Nilai pelajar : " << x.nilai;
 }
 
 int main()
