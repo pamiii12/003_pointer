@@ -20,4 +20,6 @@ int main()
 	ref.nim = 2;
 	mhs.shownim();
 
+	mahasiswa* pmhs = &mhs;
+
 }
