@@ -16,8 +16,10 @@ void setNama(mahasiswa& a, string pNama) {
 }
 
 int main() {
-	mahasiswa joko;
-	setNama(joko, "Joko Kumat");
+	mahasiswa mhs;
+	setNama(mhs, "Joko Kumat");
+	cout << endl;
+	system("pause");
 	return 0;
 }
 
